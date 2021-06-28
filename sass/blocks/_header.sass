@@ -23,15 +23,20 @@
 		display: flex
 		align-items: center
 		justify-content: space-between
-		padding-bottom: 163px
+		padding-bottom: 63px
 		z-index: 20
+		flex-wrap: wrap
 	&-list
 		display: flex
-.network
-	&__icon
-		margin-right: 21px
-		&:last-child
-			margin-right: 0
+	&-network
+		&__link
+			margin-right: 21px
+			font-size: 22px
+			color: $light
+			&:hover
+				color: $text-green
+			&:last-child
+				margin-right: 0
 .nav
 	&-list
 		display: flex

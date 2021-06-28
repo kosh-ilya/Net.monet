@@ -1,0 +1,41 @@
+.settings
+	background-color: $bg-color
+	padding: 120px 0
+	&-wrap
+		text-align: center
+	&__title
+		@include text-title
+	&-text
+		max-width: 592px
+		margin: 0 auto
+		margin-bottom: 40px
+	&__text
+		@include text-description
+		color: $text-green
+		text-align: left
+		margin-bottom: 15px
+	&-list
+		max-width: 600px
+		margin: 0 auto
+		text-align: left
+		margin-bottom: 40px
+		&__item
+			margin-bottom: 15px
+		&__text
+			@include text-description
+			display: inline-block
+		&__icon
+			padding-right: 10px
+	&-btn
+		display: inline-block
+		padding: 18px 36px
+		border-radius: 8px
+		border: 2px solid #1ABC0F
+		@include text-nav
+		color: $text-green
+		background-color: transparent
+		text-align: center
+		&:hover
+			color: $light
+			background-color: $hover
+			box-shadow: 0px 10px 50px rgba(26, 188, 15, 0.65)

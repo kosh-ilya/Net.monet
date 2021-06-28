@@ -8,7 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/icons-font.css" />
+
     <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="stylesheet" href="./css/aos.css" />
     <title>Нетмонет</title>
 
@@ -48,21 +51,27 @@
             </ul>
           </nav>
           <div class="header-network">
-            <img
-              src="./img/icon/vk.png"
-              alt="вконтакте"
-              class="network__icon"
-            />
-            <img
-              src="./img/icon/Inst.png"
-              alt="Инстаграмм"
-              class="network__icon"
-            />
-            <img
-              src="./img/icon/youtube.png"
-              alt="Ютуб"
-              class="network__icon"
-            />
+            <a
+              rel="nofollow noopener"
+              target="_blank"
+              class="header-network__link icon-VK"
+              href="https://vk.com"
+            >
+            </a>
+            <a
+              rel="nofollow noopener"
+              target="_blank"
+              class="header-network__link icon-inst"
+              href="https://www.instagram.com"
+            >
+            </a>
+            <a
+              rel="nofollow noopener"
+              target="_blank"
+              class="header-network__link icon-yt"
+              href="https://www.youtube.com"
+            >
+            </a>
           </div>
           <!-- /.header-network -->
         </div>
@@ -342,104 +351,265 @@
         <h3 class="faq__title">Часто задаваемые вопросы</h3>
         <div class="faq-wrap">
           <div class="faq-spoiler">
-            <div class="faq-spoiler-question  one faq-spoiler-question_active">
-              <p class="faq-spoiler-question__text">
-                Для чего нужен QR-код и как им воспользоваться?
-              </p>
-														              <img
-                src="./img/icon/Minus.svg"
-                alt="минус"
-                class="faq-spoiler-question__icon minus"
-              />
-
-              <img
-                src="./img/icon/Plus.svg"
-                alt="плюс"
-                class="faq-spoiler-question__icon plus"
-              />
+            <div class="faq-spoiler-question one faq-spoiler-question_active">
+              <div class="flex-wrap">
+                <p class="faq-spoiler-question__text">
+                  Для чего нужен QR-код и как им воспользоваться?
+                </p>
+                <img
+                  src="./img/icon/Plus.svg"
+                  alt="плюс"
+                  class="faq-spoiler-question__icon plus"
+                />
+              </div>
               <p class="faq-spoiler-answer__text">
                 Подключение бесплатно. Платформа «нетмонет» удерживает комиссию
                 5% от суммы чаевых. Больше никаких скрытых комиссий и
                 минимальных сумм у нас нет.
               </p>
-
             </div>
             <!-- /.faq-title -->
           </div>
-					            <div class="faq-spoiler-question faq-spoiler-question_active one">
+          <div class="faq-spoiler-question faq-spoiler-question_active one">
+            <div class="flex-wrap">
               <p class="faq-spoiler-question__text">
-                Для чего нужен QR-код и как им воспользоваться?
+                Можно ли не оплачивать чаевые, а просто оставить отзыв
+                через «нетмонет»?
               </p>
-														              <img
-                src="./img/icon/Minus.svg"
-                alt="минус"
-                class="faq-spoiler-question__icon minus"
-              />
-
               <img
                 src="./img/icon/Plus.svg"
                 alt="плюс"
                 class="faq-spoiler-question__icon plus"
               />
-              <p class="faq-spoiler-answer__text">
-                Подключение бесплатно. Платформа «нетмонет» удерживает комиссию
-                5% от суммы чаевых. Больше никаких скрытых комиссий и
-                минимальных сумм у нас нет.
-              </p>
-
             </div>
-						            <div class="faq-spoiler-question faq-spoiler-question_active one">
+            <p class="faq-spoiler-answer__text">
+              Подключение бесплатно. Платформа «нетмонет» удерживает комиссию 5%
+              от суммы чаевых. Больше никаких скрытых комиссий и минимальных
+              сумм у нас нет.
+            </p>
+          </div>
+          <div class="faq-spoiler-question faq-spoiler-question_active one">
+            <div class="flex-wrap">
               <p class="faq-spoiler-question__text">
-                Для чего нужен QR-код и как им воспользоваться?
+                Куда попадают чаевые, оплаченные через «нетмонет»?
               </p>
-														              <img
-                src="./img/icon/Minus.svg"
-                alt="минус"
-                class="faq-spoiler-question__icon minus"
-              />
-
               <img
                 src="./img/icon/Plus.svg"
                 alt="плюс"
                 class="faq-spoiler-question__icon plus"
               />
-              <p class="faq-spoiler-answer__text">
-                Подключение бесплатно. Платформа «нетмонет» удерживает комиссию
-                5% от суммы чаевых. Больше никаких скрытых комиссий и
-                минимальных сумм у нас нет.
-              </p>
-
             </div>
-            <div class="faq-spoiler-question faq-spoiler-question_active one">
+            <p class="faq-spoiler-answer__text">
+              Подключение бесплатно. Платформа «нетмонет» удерживает комиссию 5%
+              от суммы чаевых. Больше никаких скрытых комиссий и минимальных
+              сумм у нас нет.
+            </p>
+          </div>
+          <div class="faq-spoiler-question faq-spoiler-question_active one">
+            <div class="flex-wrap">
               <p class="faq-spoiler-question__text">
-                Для чего нужен QR-код и как им воспользоваться?
+                Как происходит подключение к платформе «нетмонет»?
               </p>
-														              <img
-                src="./img/icon/Minus.svg"
-                alt="минус"
-                class="faq-spoiler-question__icon minus"
-              />
-
               <img
                 src="./img/icon/Plus.svg"
                 alt="плюс"
                 class="faq-spoiler-question__icon plus"
               />
-              <p class="faq-spoiler-answer__text">
-                Подключение бесплатно. Платформа «нетмонет» удерживает комиссию
-                5% от суммы чаевых. Больше никаких скрытых комиссий и
-                минимальных сумм у нас нет.
-              </p>
-
             </div>
 
-
-
+            <p class="faq-spoiler-answer__text">
+              Подключение бесплатно. Платформа «нетмонет» удерживает комиссию 5%
+              от суммы чаевых. Больше никаких скрытых комиссий и минимальных
+              сумм у нас нет.
+            </p>
+          </div>
+          <div class="faq-spoiler-question faq-spoiler-question_active one">
+            <div class="flex-wrap">
+              <p class="faq-spoiler-question__text">
+                Какие условия сотрудничества? Сколько стоит подключение?
+              </p>
+              <img
+                src="./img/icon/Plus.svg"
+                alt="плюс"
+                class="faq-spoiler-question__icon plus"
+              />
+            </div>
+            <p class="faq-spoiler-answer__text">
+              Подключение бесплатно. Платформа «нетмонет» удерживает комиссию 5%
+              от суммы чаевых. Больше никаких скрытых комиссий и минимальных
+              сумм у нас нет.
+            </p>
+          </div>
         </div>
         <!-- /.faq-wrap -->
       </div>
       <!-- /.container -->
     </section>
+    <section class="settings">
+      <div class="container">
+        <div class="settings-wrap">
+          <h3 class="settings__title">Лёгкая и быстрая настройка</h3>
+          <div class="settings-text">
+            <p class="settings__text">
+              Платформа не требует доступа к конфиденциальным данным заведения.
+            </p>
+            <p class="settings__text">Мы поможем на каждом этапе работы:</p>
+          </div>
+          <ul class="settings-list">
+            <li class="settings-list__item">
+              <img
+                src="./img/icon/arrow.svg"
+                alt=""
+                class="settings-list__icon"
+              />
+              <p class="settings-list__text">
+                Настройка пречека "под-ключ" без глубокой интеграции
+              </p>
+            </li>
+            <li class="settings-list__item">
+              <img
+                src="./img/icon/arrow.svg"
+                alt=""
+                class="settings-list__icon"
+              />
+              <p class="settings-list__text">
+                Обучим менеджмент и сотрудников за 30 минут
+              </p>
+            </li>
+            <li class="settings-list__item">
+              <img
+                src="./img/icon/arrow.svg"
+                alt=""
+                class="settings-list__icon"
+              />
+              <p class="settings-list__text">Поддержка пользователей</p>
+            </li>
+          </ul>
+          <button class="settings-btn">Подключить заведение</button>
+        </div>
+        <!-- /.settings-wrap -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-menu">
+            <nav class="footer-nav">
+              <div class="footer-logo">
+                <img src="./img/Logo.png" alt="логотип" class="footer__logo" />
+              </div>
+              <!-- /.footer-logo -->
+
+              <ul class="footer-nav-list">
+                <li class="footer-nav-list__item">
+                  <a href="" class="footer-nav-list__link">Преимущества</a>
+                </li>
+                <li class="footer-nav-list__item">
+                  <a href="" class="footer-nav-list__link">Принцип работы</a>
+                </li>
+                <li class="footer-nav-list__item">
+                  <a href="" class="footer-nav-list__link">Адаптация</a>
+                </li>
+                <li class="footer-nav-list__item">
+                  <a href="" class="footer-nav-list__link">FAQ</a>
+                </li>
+                <li class="footer-nav-list__item">
+                  <a href="" class="footer-nav-list__link">Поддержка</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer-contacts">
+              <h4 class="footer-list__title">Контакты</h4>
+              <ul class="footer-list">
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link">Поддержка </a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link"
+                    >Подключение к системе
+                  </a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link">+7 (926) 136-36-63 </a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link">business@netmonet.co</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link"></a>
+                </li>
+                <li>
+                  <div class="footer-network">
+                    <a
+                      class="footer-network__link icon-VK"
+                      href="https://vk.com"
+                      rel="nofollow noopener"
+                      target="_blank"
+                    >
+                    </a>
+                    <a
+                      class="footer-network__link icon-inst"
+                      href="https://www.instagram.com"
+                      rel="nofollow noopener"
+                      target="_blank"
+                    >
+                    </a>
+                    <a
+                      class="footer-network__link icon-yt"
+                      href="https://www.youtube.com"
+                      rel="nofollow noopener"
+                      target="_blank"
+                    >
+                    </a>
+                  </div>
+                  <!-- /.header-network -->
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-info">
+              <h4 class="footer-list__title">Информация</h4>
+              <ul class="footer-list">
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link"
+                    >Политика конфиденциальности</a
+                  >
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list__link">Условия пользования</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-payment">
+            <img
+              src="./img/icon/pay-best.png"
+              alt=""
+              class="footer-payment__image"
+            /><img
+              src="./img/icon/pay-mir.png"
+              alt=""
+              class="footer-payment__image"
+            /><img
+              src="./img/icon/pay-visa.png"
+              alt=""
+              class="footer-payment__image"
+            /><img
+              src="./img/icon/pay-master.png"
+              alt=""
+              class="footer-payment__image"
+            />
+          </div>
+          <!-- /.footer-payment -->
+          <p class="footer__copyright">
+            © 2021 - нетмонет.ру. Все права защищены.
+          </p>
+        </div>
+        <!-- /.footer-wrap -->
+      </div>
+      <!-- /.container -->
+    </footer>
 
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

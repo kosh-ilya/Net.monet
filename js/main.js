@@ -13,17 +13,16 @@ const reviewsSlider = new Swiper(".adapt-slider", {
   },
   keyboard: { enabled: true },
 });
-let answer = $('.faq-spoiler-answer__text');
- 		question = $(".faq-spoiler-question");
- 		minus = $('.minus');
- 		plus = $('.plus');
-		minus.hide();
+let answer = $(".faq-spoiler-answer__text");
+question = $(".faq-spoiler-question");
+minus = $(".minus");
+plus = $(".plus");
+minus.hide();
 
-$(".plus").click(function (e) {
-	if($('.faq-spoiler-question').hasClass('one')){
-			plus.not($(this)).removeClass('active');
-			$('.faq-spoiler-answer__text').not($(this).next()).slideUp(300);
-	}
-	$(this).toggleClass('active').next().slideToggle(300);
-  question.toggleClass("active");
+$(".flex-wrap").click(function (e) {
+  if ($(".faq-spoiler-question").hasClass("one")) {
+    plus.not($(this)).removeClass("active");
+    $(".faq-spoiler-answer__text").not($(this).next()).slideUp(300);
+  }
+  $(this).toggleClass("active").next().slideToggle(300);
 });
